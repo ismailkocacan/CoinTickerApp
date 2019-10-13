@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Binance için Alarm</string>
+    <string name="title_activity_alarm_setting">AlarmSettingActivity</string>
+
+    <string name="tabFavorites">Favoriler</string>
+
+    <string name="tabTextLastOrder">Son Fiyat</string>
+    <string name="tabTextBuy">Alış Fiyat</string>
+    <string name="tabTextAsk">Satış Fiyat</string>
+    <string name="tabTextHighLow">Yüksek/Düşük</string>
+    <string name="searchViewQueryHint">aranan...</string>
+
+    <string name="txtRowBuy">Alış Fiyatı</string>
+    <string name="txtRowAsk">Satış Fiyatı</string>
+    <string name="txtRowLow">En Düşük</string>
+    <string name="txtRowHigh">En Yüksek</string>
+    <string name="txtRowLastOrder">Son Fiyat</string>
+    <string name="txtRowAvg">Ort. Fiyat</string>
+    <string name="txtRowVolume">Hacim</string>
+    <string name="txtRowChange">Fark %</string>
+
+    <string name="btnAddAlarm">+ Alarm Ekle</string>
+    <string name="btnAddFavorite">+ Favorilere Ekle</string>
+    <string name="btnRemoveFavorite">- Kaldır</string>
+
+    <string name="operatorGreaterThen">Büyüktür</string>
+    <string name="operatorLessThen">Küçüktür</string>
+
+    <string name="add_alarm_okButton">TAMAM</string>
+    <string name="add_alarm_price">Fiyat</string>
+    <string name="add_alarm_change">Fark %</string>
+
+
+    <string name="notifyMeWhenExceedHighValue">En Yüksek değer aşıldığında bildir.</string>
+    <string name="notifyMeWhenExceedLowValue">En Yüksek değer aşıldığında bildir.</string>
+
+    <string name="appConstMessageAlarmInserted">Alarm Eklendi.</string>
+    <string name="appConstDialogRequiredPrice">Fiyat eksik!</string>
+    <string name="appConstDialogRequiredPriceOrChange">Fiyat veya Fark girilmeli!</string>
+    <string name="appConstFormatTitle1">%s %s %s %s koşulu gerçekleşti.</string>
+    <string name="appConstFormatTitle2">%s %s fark %s %% %s koşulu gerçekleşti.</string>
+    <string name="appConstFormatHighExceed">%s En Yüksek değer aşıldı.</string>
+    <string name="appConstFormatLowExceed">%s En Düşük değer aşıldı</string>
+
+    <string name="appConstTextLoading">Veriler Güncelleniyor...</string>
+    <string name="appConstTextLoadingFavorites">Favoriler Güncelleniyor...</string>
+    <string name="appConstFavoritesEmpty">Favoriler Boş.</string>
+
+    <string name="appConstNotificationName">Binance Alarm Bildirimi</string>
+    <string name="appConstNotificationChannelName">Binance Alarm Bildirimi Kanalı</string>
+
+    <string name="title_activity_settings">Tercihler</string>
+
+    <!-- Uygulama reklam kimlik bilgileri -->
+    <string name="add_AppId">ca-app-pub-3573648956491203~3085772698</string>
+    <string name="add_unitId_main">ca-app-pub-3573648956491203/9268037666</string>
+    <string name="add_unitId_alarm_detail">ca-app-pub-3573648956491203/1210967133</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Zamanlama</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Yenileme Süresi</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

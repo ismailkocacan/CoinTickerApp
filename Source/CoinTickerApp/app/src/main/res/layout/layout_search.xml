@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+    <EditText
+        android:id="@+id/txtSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#193F66"
+        android:textSize="12sp"
+        android:hint="Ara..."
+        android:inputType="text"
+        android:padding="3dip"
+        android:textColor="#8CB1C0">
+        <requestFocus />
+    </EditText>
+</LinearLayout>

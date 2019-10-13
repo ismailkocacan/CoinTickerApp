@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alarm for Binance</string>
+    <string name="add_alarm_okButton">OK</string>
+    <string name="add_alarm_price">price</string>
+    <string name="appConstDialogRequiredPrice">price required !</string>
+    <string name="appConstDialogRequiredPriceOrChange">price or change required !</string>
+    <string name="appConstFavoritesEmpty">Favorites is empty.</string>
+    <string name="appConstFormatHighExceed">%s High value  exceeded.</string>
+    <string name="appConstFormatLowExceed">%s Low value  exceeded.</string>
+    <string name="appConstFormatTitle1">%s %s %s %s condition is done.</string>
+    <string name="appConstFormatTitle2">%s %s fark %s %% %s condition is done.</string>
+    <string name="appConstMessageAlarmInserted">Alarm is added.</string>
+    <string name="appConstNotificationChannelName">Binance Alarm Notification Channel</string>
+    <string name="appConstNotificationName">Binance Alarm Notification</string>
+    <string name="appConstTextLoading">Loading...</string>
+    <string name="appConstTextLoadingFavorites">Favorites is loading...</string>
+    <string name="btnAddAlarm">+ Add Alarm</string>
+    <string name="btnAddFavorite">+ Add Favorite</string>
+    <string name="btnRemoveFavorite">+ Remove</string>
+    <string name="operatorGreaterThen">Greater Than</string>
+    <string name="operatorLessThen">Less Than</string>
+    <string name="searchViewQueryHint">search...</string>
+    <string name="tabTextAsk">Ask</string>
+    <string name="tabTextBuy">Buy</string>
+    <string name="tabTextHighLow">High/Low</string>
+    <string name="tabTextLastOrder">Last</string>
+    <string name="txtRowAsk">Ask</string>
+    <string name="txtRowAvg">Avg</string>
+    <string name="txtRowBuy">Buy</string>
+    <string name="txtRowChange">Change %</string>
+    <string name="txtRowHigh">High</string>
+    <string name="txtRowLastOrder">Last</string>
+    <string name="txtRowLow">Low</string>
+    <string name="txtRowVolume">Vol</string>
+    <string name="add_alarm_change">Change %</string>
+    <string name="tabFavorites">Favorites</string>
+    <string name="notifyMeWhenExceedHighValue">Notify when high value exceeded</string>
+    <string name="notifyMeWhenExceedLowValue">Notify when low value exceeded</string>
+</resources>

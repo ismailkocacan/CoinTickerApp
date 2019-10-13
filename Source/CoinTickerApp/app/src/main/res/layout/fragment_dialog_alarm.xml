@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    tools:context=".FragmentDialogAlarm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/dialogTitle"
+            style="@style/dialog_title" />
+
+        <Spinner
+            android:id="@+id/spinnerOperator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtFiyat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_alarm_price"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edtFark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_alarm_change"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_alarm_okButton"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+    </LinearLayout>
+
+</FrameLayout>

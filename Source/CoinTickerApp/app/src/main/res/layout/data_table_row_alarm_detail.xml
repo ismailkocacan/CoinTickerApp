@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView android:text="@string/txtRowBuy" style="@style/table_cell_caption_normal" />
+            <TextView android:tag="buy" android:text="0.000" style="@style/table_cell_text"/>
+
+            <TextView android:text="@string/txtRowAsk" style="@style/table_cell_caption_normal" />
+            <TextView android:tag="ask" android:text="0.000" style="@style/table_cell_text"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView android:text="@string/txtRowLow" style="@style/table_cell_caption_normal" />
+            <TextView android:tag="low" android:text="0.000" style="@style/table_cell_text"/>
+
+            <TextView android:text="@string/txtRowHigh" style="@style/table_cell_caption_normal" />
+            <TextView android:tag="high" android:text="0.000" style="@style/table_cell_text"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView android:text="@string/txtRowLastOrder" style="@style/table_cell_caption_normal" />
+            <TextView android:tag="lastOrder" android:text="0.000" style="@style/table_cell_text"/>
+
+            <TextView android:text="@string/txtRowAvg" style="@style/table_cell_caption_normal" />
+            <TextView android:tag="avg" android:text="0.000" style="@style/table_cell_text"/>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:text="@string/txtRowVolume" style="@style/table_cell_caption_normal"/>
+            <TextView android:tag="volume" android:text="0.000" style="@style/table_cell_text"/>
+
+            <TextView android:text="@string/txtRowChange" style="@style/table_cell_caption_normal" />
+            <TextView android:tag="changeRate" android:text="0.000" style="@style/table_cell_text"/>
+        </TableRow>
+
+    </LinearLayout>
+
+</LinearLayout>
