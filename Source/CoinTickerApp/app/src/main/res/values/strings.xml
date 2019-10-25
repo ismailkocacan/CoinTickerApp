@@ -32,7 +32,7 @@
 
 
     <string name="notifyMeWhenExceedHighValue">En Yüksek değer aşıldığında bildir.</string>
-    <string name="notifyMeWhenExceedLowValue">En Yüksek değer aşıldığında bildir.</string>
+    <string name="notifyMeWhenExceedLowValue">En Düşük değer aşıldığında bildir.</string>
 
     <string name="appConstMessageAlarmInserted">Alarm Eklendi.</string>
     <string name="appConstDialogRequiredPrice">Fiyat eksik!</string>
